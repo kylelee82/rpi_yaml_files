@@ -1,10 +1,11 @@
 ---
 # This is a pane, it's just a list of buttons.
-title: Servo Control
+title: Turret Control
 # This is the layout spec version.
 version: 1
 ui:
   # What you want the button to say.
+  
 - label: Tilt Up
   url: http://192.168.1.12/TILT_UP
   span: 6
@@ -17,9 +18,29 @@ ui:
 - label: Tilt Down
   url: http://192.168.1.12/TILT_DOWN
   span: 6
-- label: Living room report
+- label: Auto-hunt
+  url: http://192.168.1.12/SERVO_AUTO
+  span: 3
+- label: Manual
+  url: http://192.168.1.12/SERVO_MANUAL
+  span: 3
+
+title: Automation
+# This is the layout spec version.
+version: 1
+ui:
+- label: Sensor report
   url: http://192.168.1.12/SENSOR_LIVING
   span: 6
+- label: IP report
+  url: http://192.168.1.12/REPORT_IP
+  span: 6
+- label: On lights
+  url: http://192.168.1.12/ON_LIGHTS
+  span: 3
+- label: Off lights
+  url: http://192.168.1.12/OFF_LIGHTS
+  span: 3
 
 ---
 title: Media Control
@@ -37,6 +58,9 @@ ui:
 - label: Play music (Channel 4)
   url: http://192.168.1.12/PLAY_MUSIC_CH3
   span: 6
+- label: Stop music
+  url: http://192.168.1.12/STOP_MUSIC
+  span: 6
 - label: Joke of the day
   url: http://192.168.1.12/TELL_JOKE
   span: 6
@@ -46,5 +70,3 @@ ui:
 - label: Decrease volume
   url: http://192.168.1.12/DECREASE_VOL
   span: 6
-
-
