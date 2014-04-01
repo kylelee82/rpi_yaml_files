@@ -25,8 +25,26 @@ ui:
 title: Media Control
 version: 1
 ui:
-- label: Play music
-  url: http://192.168.1.12/PLAY_MUSIC
-- label: Stop music
-  url: http://192.168.1.12/STOP_MUSIC
+- label: Play music (Alternative)
+  url: http://192.168.1.12/PLAY_MUSIC_CH0
+  span: 6
+- label: Play music (Top 40)
+  url: http://192.168.1.12/PLAY_MUSIC_CH1
+  span: 6
+- label: Play music (Classical)
+  url: http://192.168.1.12/PLAY_MUSIC_CH2
+  span: 6
+- label: Play music (Channel 4)
+  url: http://192.168.1.12/PLAY_MUSIC_CH3
+  span: 6
+- label: Joke of the day
+  url: http://192.168.1.12/TELL_JOKE
+  span: 6
+- label: Increase volume
+  url: http://192.168.1.12/INCREASE_VOL
+  span: 6
+- label: Decrease volume
+  url: http://192.168.1.12/DECREASE_VOL
+  span: 6
+
 
