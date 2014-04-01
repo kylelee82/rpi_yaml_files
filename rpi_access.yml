@@ -20,7 +20,7 @@ ui:
 - label: Auto-hunt
   url: http://192.168.1.12/SERVO_AUTO
   span: 3
-- label: Manual
+- label: Manual mode
   url: http://192.168.1.12/SERVO_MANUAL
   span: 3
   
@@ -41,7 +41,13 @@ ui:
 - label: Off lights
   url: http://192.168.1.12/OFF_LIGHTS
   span: 3
-
+- label: Start motion
+  url: http://192.168.1.12/ON_MOTION
+  span: 3
+- label: Stop motion
+  url: http://192.168.1.12/OFF_MOTION
+  span: 3
+  
 ---
 title: Media Control
 version: 1
@@ -66,7 +72,7 @@ ui:
   span: 6
 - label: Increase volume
   url: http://192.168.1.12/INCREASE_VOL
-  span: 6
+  span: 3
 - label: Decrease volume
   url: http://192.168.1.12/DECREASE_VOL
-  span: 6
+  span: 3
