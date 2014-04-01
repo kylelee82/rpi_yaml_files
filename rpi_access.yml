@@ -5,7 +5,6 @@ title: Turret Control
 version: 1
 ui:
   # What you want the button to say.
-  
 - label: Tilt Up
   url: http://192.168.1.12/TILT_UP
   span: 6
@@ -24,7 +23,8 @@ ui:
 - label: Manual
   url: http://192.168.1.12/SERVO_MANUAL
   span: 3
-
+  
+---
 title: Automation
 # This is the layout spec version.
 version: 1
