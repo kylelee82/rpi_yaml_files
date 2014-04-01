@@ -1,0 +1,35 @@
+---
+# This is a pane, it's just a list of buttons.
+title: Servo Control
+# This is the layout spec version.
+version: 1
+ui:
+  # What you want the button to say.
+- label: Tilt Up
+  url: http://192.168.1.12/servo/?key=secretkey&button=TILT_UP
+  span: 6
+- label: Pan Left
+  url: http://192.168.1.12/servo/?key=secretkey&button=PAN_LEFT
+  span: 3
+- label: Pan Right
+  url: http://192.168.1.12/servo/?key=secretkey&button=PAN_RIGHT
+  span: 3
+- label: Tilt Down
+  url: http://192.168.1.12/servo/?key=secretkey&button=TILT_DOWN
+  span: 6
+---
+# This is another pane, it works the same as the first one.
+title: Sensor Control
+ui:
+- label: Living room report
+  url: http://192.168.1.12/sensor/?key=secretkey&button=SENSOR_LIVING
+  span: 6
+---
+title: Media Control
+version: 1
+ui:
+- label: Play music
+  url: http://192.168.1.12/media/?key=secretkey&button=PLAY_MUSIC
+- label: Stop music
+  url: http://192.168.1.12/media/?key=secretkey&button=STOP_MUSIC
+
