@@ -58,24 +58,24 @@ ui:
 title: Media Control
 version: 1
 ui:
-- label: Play music (Alternative)
+- label: Alternative
   url: http://192.168.1.12/PLAY_MUSIC_CH0
-  span: 6
-- label: Play music (Top 40)
+  span: 3
+- label: Top 40
   url: http://192.168.1.12/PLAY_MUSIC_CH1
-  span: 6
-- label: Play music (Classical)
+  span: 3
+- label: Classical
   url: http://192.168.1.12/PLAY_MUSIC_CH2
-  span: 6
-- label: Play music (Jazz)
+  span: 3
+- label: Jazz
   url: http://192.168.1.12/PLAY_MUSIC_CH3
-  span: 6
-- label: Play music (Piano)
+  span: 3
+- label: Piano
   url: http://192.168.1.12/PLAY_MUSIC_CH4
-  span: 6
-- label: Play music (Americana)
+  span: 3
+- label: Americana
   url: http://192.168.1.12/PLAY_MUSIC_CH5
-  span: 6
+  span: 3
 - label: Stop music
   url: http://192.168.1.12/STOP_MUSIC
   span: 6
