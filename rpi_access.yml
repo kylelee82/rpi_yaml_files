@@ -87,6 +87,7 @@ ui:
   span: 3
 - label: Decrease volume
   url: http://192.168.1.12/DECREASE_VOL
+  span: 3
   
 ---
 title: System control
