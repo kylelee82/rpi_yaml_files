@@ -25,7 +25,7 @@ ui:
   span: 3
   
 ---
-title: Automation
+title: Home Automation
 # This is the layout spec version.
 version: 1
 ui:
@@ -47,6 +47,12 @@ ui:
 - label: Stop motion
   url: http://192.168.1.12/OFF_MOTION
   span: 3
+- label: Shutdown
+  url: http://192.168.1.12/SHUTDOWN
+  span: 3
+- label: Reboot
+  url: http://192.168.1.12/REBOOT
+  span: 3
   
 ---
 title: Media Control
@@ -61,8 +67,14 @@ ui:
 - label: Play music (Classical)
   url: http://192.168.1.12/PLAY_MUSIC_CH2
   span: 6
-- label: Play music (Channel 4)
+- label: Play music (Jazz)
   url: http://192.168.1.12/PLAY_MUSIC_CH3
+  span: 6
+- label: Play music (Piano)
+  url: http://192.168.1.12/PLAY_MUSIC_CH4
+  span: 6
+- label: Play music (Americana)
+  url: http://192.168.1.12/PLAY_MUSIC_CH5
   span: 6
 - label: Stop music
   url: http://192.168.1.12/STOP_MUSIC
