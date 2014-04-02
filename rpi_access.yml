@@ -47,11 +47,11 @@ ui:
 - label: Stop motion
   url: http://192.168.1.12/OFF_MOTION
   span: 3
-- label: Shutdown
-  url: http://192.168.1.12/SHUTDOWN
+- label: Male voice
+  url: http://192.168.1.12/VOICE_MALE
   span: 3
-- label: Reboot
-  url: http://192.168.1.12/REBOOT
+- label: Female voice
+  url: http://192.168.1.12/VOICE_FEMALE
   span: 3
   
 ---
@@ -87,4 +87,15 @@ ui:
   span: 3
 - label: Decrease volume
   url: http://192.168.1.12/DECREASE_VOL
-  span: 3
+  
+---
+title: System control
+# This is the layout spec version.
+version: 1
+ui:
+- label: Reboot system
+  url: http://192.168.1.12/REBOOT_SYSTEM
+  span: 6
+- label: Shutdown system
+  url: http://192.168.1.12/SHUTDOWN_SYSTEM
+  span: 6
