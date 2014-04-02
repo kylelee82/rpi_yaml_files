@@ -84,10 +84,10 @@ ui:
   span: 6
 - label: Increase volume
   url: http://192.168.1.12/INCREASE_VOL
-  span: 3
+  span: 6
 - label: Decrease volume
   url: http://192.168.1.12/DECREASE_VOL
-  span: 3
+  span: 6
 
 ---
 title: System control
