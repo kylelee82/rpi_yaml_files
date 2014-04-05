@@ -23,6 +23,12 @@ ui:
 - label: Manual mode
   url: http://192.168.1.12/SERVO_MANUAL
   span: 3
+- label: Guardian ON
+  url: http://192.168.1.12/ON_GUARDIAN
+  span: 3
+- label: Guardian OFF
+  url: http://192.168.1.12/OFF_GUARDIAN
+  span: 3
   
 ---
 title: Home Automation
