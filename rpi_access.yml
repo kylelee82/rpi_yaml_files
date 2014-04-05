@@ -59,6 +59,12 @@ ui:
 - label: Female voice
   url: http://192.168.1.12/VOICE_FEMALE
   span: 3
+- label: Wake Up
+  url: http://192.168.1.12/WAKE_UP
+  span: 3
+- label: Sleep
+  url: http://192.168.1.12/SLEEP
+  span: 3
   
 ---
 title: Media Control
