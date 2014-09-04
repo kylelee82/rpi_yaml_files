@@ -6,28 +6,28 @@ version: 1
 ui:
   # What you want the button to say.
 - label: Tilt Up
-  url: http://192.168.1.10/TILT_UP
+  url: http://192.168.1.10:8001/TILT_UP
   span: 6
 - label: Pan Left
-  url: http://192.168.1.10/PAN_LEFT
+  url: http://192.168.1.10:8001/PAN_LEFT
   span: 3
 - label: Pan Right
-  url: http://192.168.1.10/PAN_RIGHT
+  url: http://192.168.1.10:8001/PAN_RIGHT
   span: 3
 - label: Tilt Down
-  url: http://192.168.1.10/TILT_DOWN
+  url: http://192.168.1.10:8001/TILT_DOWN
   span: 6
 - label: Auto-hunt
-  url: http://192.168.1.10/SERVO_AUTO
+  url: http://192.168.1.10:8001/SERVO_AUTO
   span: 3
 - label: Manual mode
-  url: http://192.168.1.10/SERVO_MANUAL
+  url: http://192.168.1.10:8001/SERVO_MANUAL
   span: 3
 - label: Guardian ON
-  url: http://192.168.1.10/ON_GUARDIAN
+  url: http://192.168.1.10:8001/ON_GUARDIAN
   span: 3
 - label: Guardian OFF
-  url: http://192.168.1.10/OFF_GUARDIAN
+  url: http://192.168.1.10:8001/OFF_GUARDIAN
   span: 3
   
 ---
@@ -36,46 +36,46 @@ title: Home Automation
 version: 1
 ui:
 - label: Sensor report
-  url: http://192.168.1.10/SENSOR_LIVING
+  url: http://192.168.1.10:8001/SENSOR_LIVING
   span: 6
 - label: IP report
-  url: http://192.168.1.10/REPORT_IP
+  url: http://192.168.1.10:8001/REPORT_IP
   span: 6
 - label: On lights
-  url: http://192.168.1.10/ON_LIGHTS
+  url: http://192.168.1.10:8001/ON_LIGHTS
   span: 3
 - label: Off lights
-  url: http://192.168.1.10/OFF_LIGHTS
+  url: http://192.168.1.10:8001/OFF_LIGHTS
   span: 3
 - label: Start motion
-  url: http://192.168.1.10/ON_MOTION
+  url: http://192.168.1.10:8001/ON_MOTION
   span: 3
 - label: Stop motion
-  url: http://192.168.1.10/OFF_MOTION
+  url: http://192.168.1.10:8001/OFF_MOTION
   span: 3
 - label: Male voice
-  url: http://192.168.1.10/VOICE_MALE
+  url: http://192.168.1.10:8001/VOICE_MALE
   span: 3
 - label: Female voice
-  url: http://192.168.1.10/VOICE_FEMALE
+  url: http://192.168.1.10:8001/VOICE_FEMALE
   span: 3
 - label: Wake Up
-  url: http://192.168.1.10/WAKE_UP
+  url: http://192.168.1.10:8001/WAKE_UP
   span: 3
 - label: Sleep
-  url: http://192.168.1.10/SLEEP
+  url: http://192.168.1.10:8001/SLEEP
   span: 3
 - label: Stream 1 On
   url: http://192.168.1.12/STREAM_ON
   span: 3
 - label: Stream 2 On
-  url: http://192.168.1.10/STREAM_ON
+  url: http://192.168.1.10:8001/STREAM_ON
   span: 3
 - label: Stream 1 Off
   url: http://192.168.1.12/STREAM_OFF
   span: 3
 - label: Stream 2 Off
-  url: http://192.168.1.10/STREAM_OFF
+  url: http://192.168.1.10:8001/STREAM_OFF
   span: 3
 ---
 title: Media Control
