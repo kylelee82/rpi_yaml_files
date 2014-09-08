@@ -123,34 +123,34 @@ title: Media Control
 version: 1
 ui:
 - label: Alternative
-  url: http://192.168.1.10/PLAY_MUSIC_CH0
+  url: http://192.168.1.10:8001/PLAY_MUSIC_CH0
   span: 3
 - label: Top 40
-  url: http://192.168.1.10/PLAY_MUSIC_CH1
+  url: http://192.168.1.10:8001/PLAY_MUSIC_CH1
   span: 3
 - label: Classical
-  url: http://192.168.1.10/PLAY_MUSIC_CH2
+  url: http://192.168.1.10:8001/PLAY_MUSIC_CH2
   span: 3
 - label: Jazz
-  url: http://192.168.1.10/PLAY_MUSIC_CH3
+  url: http://192.168.1.10:8001/PLAY_MUSIC_CH3
   span: 3
 - label: Piano
-  url: http://192.168.1.10/PLAY_MUSIC_CH4
+  url: http://192.168.1.10:8001/PLAY_MUSIC_CH4
   span: 3
 - label: Americana
-  url: http://192.168.1.10/PLAY_MUSIC_CH5
+  url: http://192.168.1.10:8001/PLAY_MUSIC_CH5
   span: 3
 - label: Stop music
-  url: http://192.168.1.10/STOP_MUSIC
+  url: http://192.168.1.10:8001/STOP_MUSIC
   span: 6
 - label: Joke of the day
-  url: http://192.168.1.10/TELL_JOKE
+  url: http://192.168.1.10:8001/TELL_JOKE
   span: 6
 - label: Increase volume
-  url: http://192.168.1.10/INCREASE_VOL
+  url: http://192.168.1.10:8001/INCREASE_VOL
   span: 6
 - label: Decrease volume
-  url: http://192.168.1.10/DECREASE_VOL
+  url: http://192.168.1.10:8001/DECREASE_VOL
   span: 6
 
 ---
@@ -159,8 +159,8 @@ title: System control
 version: 1
 ui:
 - label: Reboot system
-  url: http://192.168.1.10/REBOOT_SYSTEM
+  url: http://192.168.1.10:8001/REBOOT_SYSTEM
   span: 6
 - label: Shutdown system
-  url: http://192.168.1.10/SHUTDOWN_SYSTEM
+  url: http://192.168.1.10:8001/SHUTDOWN_SYSTEM
   span: 6
