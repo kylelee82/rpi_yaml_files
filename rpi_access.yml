@@ -1,4 +1,45 @@
 ---
+title: Automobile
+version: 1
+ui:
+- label: Stop Car-cam
+  url: http://192.168.43.3/START_CAM
+  span: 6
+- label: Restart Car-cam
+  url: http://192.168.43.3/STOP_CAM
+  span: 6
+- label: Alternative
+  url: http://192.168.43.3/PLAY_MUSIC_CH0
+  span: 3
+- label: Top 40
+  url: http://192.168.43.3/PLAY_MUSIC_CH1
+  span: 3
+- label: Classical
+  url: http://192.168.43.3/PLAY_MUSIC_CH2
+  span: 3
+- label: Jazz
+  url: http://192.168.43.3/PLAY_MUSIC_CH3
+  span: 3
+- label: Piano
+  url: http://192.168.43.3/PLAY_MUSIC_CH4
+  span: 3
+- label: Americana
+  url: http://192.168.43.3/PLAY_MUSIC_CH5
+  span: 3
+- label: Stop music
+  url: http://192.168.43.3/STOP_MUSIC
+  span: 6
+- label: Joke of the day
+  url: http://192.168.43.3/TELL_JOKE
+  span: 6
+- label: Increase volume
+  url: http://192.168.43.3/INCREASE_VOL
+  span: 6
+- label: Decrease volume
+  url: http://192.168.43.3/DECREASE_VOL
+  span: 6
+
+---
 # This is a pane, it's just a list of buttons.
 title: Turret Control
 # This is the layout spec version.
@@ -66,13 +107,13 @@ ui:
   url: http://192.168.1.10:8001/SLEEP
   span: 3
 - label: Stream 1 On
-  url: http://192.168.1.12/STREAM_ON
+  url: http://192.168.1.10/STREAM_ON
   span: 3
 - label: Stream 2 On
   url: http://192.168.1.10:8001/STREAM_ON
   span: 3
 - label: Stream 1 Off
-  url: http://192.168.1.12/STREAM_OFF
+  url: http://192.168.1.10/STREAM_OFF
   span: 3
 - label: Stream 2 Off
   url: http://192.168.1.10:8001/STREAM_OFF
@@ -82,34 +123,34 @@ title: Media Control
 version: 1
 ui:
 - label: Alternative
-  url: http://192.168.1.12/PLAY_MUSIC_CH0
+  url: http://192.168.1.10/PLAY_MUSIC_CH0
   span: 3
 - label: Top 40
-  url: http://192.168.1.12/PLAY_MUSIC_CH1
+  url: http://192.168.1.10/PLAY_MUSIC_CH1
   span: 3
 - label: Classical
-  url: http://192.168.1.12/PLAY_MUSIC_CH2
+  url: http://192.168.1.10/PLAY_MUSIC_CH2
   span: 3
 - label: Jazz
-  url: http://192.168.1.12/PLAY_MUSIC_CH3
+  url: http://192.168.1.10/PLAY_MUSIC_CH3
   span: 3
 - label: Piano
-  url: http://192.168.1.12/PLAY_MUSIC_CH4
+  url: http://192.168.1.10/PLAY_MUSIC_CH4
   span: 3
 - label: Americana
-  url: http://192.168.1.12/PLAY_MUSIC_CH5
+  url: http://192.168.1.10/PLAY_MUSIC_CH5
   span: 3
 - label: Stop music
-  url: http://192.168.1.12/STOP_MUSIC
+  url: http://192.168.1.10/STOP_MUSIC
   span: 6
 - label: Joke of the day
-  url: http://192.168.1.12/TELL_JOKE
+  url: http://192.168.1.10/TELL_JOKE
   span: 6
 - label: Increase volume
-  url: http://192.168.1.12/INCREASE_VOL
+  url: http://192.168.1.10/INCREASE_VOL
   span: 6
 - label: Decrease volume
-  url: http://192.168.1.12/DECREASE_VOL
+  url: http://192.168.1.10/DECREASE_VOL
   span: 6
 
 ---
@@ -118,8 +159,8 @@ title: System control
 version: 1
 ui:
 - label: Reboot system
-  url: http://192.168.1.12/REBOOT_SYSTEM
+  url: http://192.168.1.10/REBOOT_SYSTEM
   span: 6
 - label: Shutdown system
-  url: http://192.168.1.12/SHUTDOWN_SYSTEM
+  url: http://192.168.1.10/SHUTDOWN_SYSTEM
   span: 6
