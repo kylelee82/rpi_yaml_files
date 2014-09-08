@@ -2,10 +2,10 @@
 title: Automobile
 version: 1
 ui:
-- label: Stop Car-cam
+- label: Stop Camera
   url: http://192.168.43.3/START_CAM
   span: 6
-- label: Restart Car-cam
+- label: Restart Camera
   url: http://192.168.43.3/STOP_CAM
   span: 6
 - label: Alternative
