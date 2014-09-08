@@ -107,13 +107,13 @@ ui:
   url: http://192.168.1.10:8001/SLEEP
   span: 3
 - label: Stream 1 On
-  url: http://192.168.1.10/STREAM_ON
+  url: http://192.168.1.10:8001/STREAM_ON
   span: 3
 - label: Stream 2 On
   url: http://192.168.1.10:8001/STREAM_ON
   span: 3
 - label: Stream 1 Off
-  url: http://192.168.1.10/STREAM_OFF
+  url: http://192.168.1.10:8001/STREAM_OFF
   span: 3
 - label: Stream 2 Off
   url: http://192.168.1.10:8001/STREAM_OFF
